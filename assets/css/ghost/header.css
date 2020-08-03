@@ -2,10 +2,17 @@
 /* ---------------------------------------------------------- */
 
 .gh-head {
-    padding: 3vmin 4vmin;
+    padding: 0.5em 1em;
     font-size: 1.6rem;
     line-height: 1.3em;
-    background: inherit;
+    background: #333f49;
+    color: var(--color-bg);
+}
+
+.gh-head-sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .gh-head a {

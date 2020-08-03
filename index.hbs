@@ -8,6 +8,8 @@
 
             {{> "card"}} {{!-- partials/card.hbs --}}
 
+            {{#unless @last}}<hr style="width: 80%; margin: 8vmin auto 0 auto;" />{{/unless}}
+
         {{/foreach}}
         </div>
 
